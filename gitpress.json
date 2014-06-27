@@ -15,9 +15,30 @@
                 "\\.html?$"            : "html",
                 ".*"                   : "text"                
         },
-        "title"  : "张松柏的技术Blog",
+        "title"  : "songbai's Blog",
+        "comment"  : "on",
+        "domain_alias"  : ["blog.songbai1211.org"],
         "friends"  : [
-                
+                {
+                        "name"  : "校长的博客",
+                        "title"  : "校长的博客",
+                        "url"  : "http://imququ.com"                  
+                },
+                {
+                        "name"  : "温总的博客",
+                        "title"  : "温总的博客",
+                        "url"  : "http://www.75team.com"
+                },
+                {
+                        "name"  : "侯哥的博客",
+                        "title" : "侯哥的博客",
+                        "url"  :  "http://typeof.net/"
+                },
+                {
+                        "name"  : "never-online",
+                        "title" : "rank's technical notes",
+                        "url"        : "http://never-online.net/blog/"
+                },
                 {
                         "name"  : "aoao",
                         "title" : "样式之美 | 没落的角落",
