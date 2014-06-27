@@ -1,48 +1,28 @@
 {
-        "docs"      : {
-                "关于我的博客": "README.md",
-                "gitpress": "posts/gitpress",
-                "PHP": "posts/PHP",
-                "Python": "posts/python",
-                "JavaScript": "posts/JavaScript",
-                "算法": "posts/算法",
-                "其他": "posts"
-        },        
-        "perpage"   : 5,
-        "types"     : {
-                "\\.(md||markdown)$"   : "markdown", 
-                "\\.(js||css||json)$"  : "code",
-                "\\.html?$"            : "html",
-                ".*"                   : "text"                
-        },
-        "title"  : "songbai's Blog",
-        "comment"  : "on",
-        "domain_alias"  : ["blog.songbai1211.org"],
-        "friends"  : [
-                {
-                        "name"  : "校长的博客",
-                        "title"  : "校长的博客",
-                        "url"  : "http://imququ.com"                  
-                },
-                {
-                        "name"  : "温总的博客",
-                        "title"  : "温总的博客",
-                        "url"  : "http://www.75team.com"
-                },
-                {
-                        "name"  : "侯哥的博客",
-                        "title" : "侯哥的博客",
-                        "url"  :  "http://typeof.net/"
-                },
-                {
-                        "name"  : "never-online",
-                        "title" : "rank's technical notes",
-                        "url"        : "http://never-online.net/blog/"
-                },
-                {
-                        "name"  : "aoao",
-                        "title" : "样式之美 | 没落的角落",
-                        "url"   : "http://www.aoao.org.cn/"
-                }
-        ] 
+"docs" : ["posts"],
+"template" : "default",
+"domain_alias" : ["your.domain"],
+"perpage" : 10,
+"order" : "number",
+"types" : {
+"\\.(md||markdown)$" : "markdown",
+"\\.(js||css||json)$" : "code",
+"\\.html?$" : "html",
+".*" : "text"
+},
+"title" : "Akira's Blog",
+"description" : "My Blog Description...",
+"comment" : "on",
+"friends" : [
+{
+"name" : "github",
+"title" : "github",
+"url" : "http://github.com"
+},
+{
+"name" : "gitpress",
+"title" : "gitpress",
+"url" : "http://gitpress.org"
+}
+]
 }
